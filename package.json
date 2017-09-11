@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "make build",
-    "lint": "make lint"
+    "lint": "make lint",
+    "prepare": "npm run precommit && npm run build"
   },
   "author": "Jeff Hanson",
   "license": "MIT",

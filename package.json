@@ -7,7 +7,7 @@
     "build": "make build",
     "lint": "make lint",
     "precommit": "npm run lint",
-    "prepare": "npm run precommit && npm run build"
+    "prepare": "npm run build"
   },
   "author": "Jeff Hanson",
   "license": "MIT",
